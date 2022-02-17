@@ -9,13 +9,14 @@ section{
 }
 .box{
     width: calc(100% / 3 - 20px);
-    height: 400px;
+    height: 600px;
     background-repeat: no-repeat;
     background-size: cover;
     display: inline-block;
     margin: auto;
     margin-left: 15px;
     margin-top: 15px;
+    margin-bottom: 60px;
 }
 .box1{
     background-image: url(../img/1.webp);
@@ -72,5 +73,18 @@ section{
     position: absolute;
     bottom: 10px;
 }
+.heart{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    vertical-align: middle;
+    background-color: #ffffff;
+    padding: 4px;
+    position: absolute;
+    right: 0px;
+    top: 10px;
+}
+
+
+
 
 
