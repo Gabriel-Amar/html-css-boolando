@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 70%;
+    margin: auto;
+}
+.box{
+    width: calc(100% / 3 - 20px);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    margin: auto;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+.box1{
+    background-image: url(../img/1.webp);
+}
+.box2{
+    background-image: url(../img/2.webp);
+}
+.box3{
+    background-image: url(../img/3.webp);
+}
+.box4{
+    background-image: url(../img/4.webp);
+}
+.box5{
+    background-image: url(../img/5.webp);
+}
+.box6{
+    background-image: url(../img/6.webp);
+}
+.overlay{
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.over1{
+    background-image: url(../img/1b.webp);
+}
+.over2{
+    background-image: url(../img/2b.webp);
+}
+.over3{
+    background-image: url(../img/3b.webp);
+}
+.over4{
+    background-image: url(../img/4b.webp);
+}
+.over5{
+    background-image: url(../img/5b.webp);
+}
+.over6{
+    background-image: url(../img/6b.webp);
+}
+.box:hover .overlay{
+    display: block;
+}
+.discount{
+    color: white;
+    background-color: #EB0037;
+    width: 40px;
+    padding: 4px;
+    position: absolute;
+    bottom: 10px;
+}
+
+
